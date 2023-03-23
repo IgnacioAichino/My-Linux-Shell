@@ -1,0 +1,20 @@
+echo Ejecutando batchfile
+echo Abro el Directorio /etc/
+cd /etc/
+echo Limpio pantalla
+clr
+echo Me desplazo a directorio home 
+cd /home/
+echo Ejecuto cd - para volver a OLDPWD
+cd -
+echo Ejecuto echo para variables ENV
+echo $PWD
+echo prueba pipe
+ls -l | wc
+echo hola mundo | grep mundo
+echo Abro firefox 
+firefox &
+echo Abro virtualbox &
+virtualbox &
+echo Ejecutando comando quit
+quit
